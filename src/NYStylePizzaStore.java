@@ -5,15 +5,14 @@ public class NYStylePizzaStore extends PizzaStore {
         switch (type) {
             case "cheese":
                 return new NYStyleCheesePizza();
-                break;
             case "pepperoni":
-                return new NYStylePepperoniPizza();
+//                return new NYStylePepperoniPizza();
                 break;
             case "clam":
-                return new NYStyleClamPizza();
+//                return new NYStyleClamPizza();
                 break;
             case "veggie":
-                return new NYStyleVeggiePizza();
+//                return new NYStyleVeggiePizza();
                 break;
         }
         

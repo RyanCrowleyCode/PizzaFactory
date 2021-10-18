@@ -5,15 +5,14 @@ public class ChicagoStylePizzaStore extends PizzaStore{
         switch (type) {
             case "cheese":
                 return new ChicagoStyleCheesePizza();
-                break;
             case "pepperoni":
-                return new ChicagoStylePepperoniPizza();
+//                return new ChicagoStylePepperoniPizza();
                 break;
             case "clam":
-                return new ChicagoStyleClamPizza();
+//                return new ChicagoStyleClamPizza();
                 break;
             case "veggie":
-                return new ChicagoStyleVeggiePizza();
+//                return new ChicagoStyleVeggiePizza();
                 break;
         }
 
